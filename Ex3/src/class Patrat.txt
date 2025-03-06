@@ -1,0 +1,14 @@
+class Patrat
+{
+    private int lat;
+    private int calcArie;
+    public Patrat(int lat){
+        this.lat=10;
+    }
+    public Patrat(int lat){
+        this.lat=lat;
+    }
+    public int calcArie(){
+        return lat*lat;
+    }
+}System.out.println("Aria:"+calcArie)
